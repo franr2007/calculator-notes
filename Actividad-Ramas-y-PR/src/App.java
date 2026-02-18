@@ -12,6 +12,8 @@ public class App {
         System.out.println("Pon la nota del examen 4: ");
         double examen4=sc.nextInt();
 
-        //aqui 
+        //media
+        double media=(examen1+examen2+examen3+examen4)/4;
+        System.out.println(media);
     }
 }
