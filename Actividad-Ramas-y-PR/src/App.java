@@ -14,6 +14,24 @@ public class App {
 
         //media
         double media=(examen1+examen2+examen3+examen4)/4;
-        System.out.println(media);
+
+        //Mostrar resultado
+        if (media>=9) {
+                System.out.println("Excelente: "+media);
+        }
+        else if (media<=8&&media >=7) {
+                System.out.println("notable: "+media);
+        }
+        else if (media>=6) {
+                System.out.println("bé: "+media);
+        }
+        else if (media>=5) {
+                System.out.println("suficiente: "+media);
+        }
+        else{
+                System.out.println("suspendido: "+media);
+        }
+
+        sc.close();
     }
 }
